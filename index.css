@@ -1,0 +1,95 @@
+/*
+background color - #1F2937
+button background - #273549
+generate button background - #10B981
+heading - font-family: "Inter", sans-serif;
+other font - font-family: "Inter", sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #1F2937;
+    font-size: 20px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+}
+
+.color-green{
+    color: #10B981;
+}
+
+.container{
+    width: 500px;
+    margin: 100px auto 20px;
+}
+
+#heading{
+    width: 360px;
+    font-family: "Inter", sans-serif;
+    margin: 20px 0 0 0;
+}
+
+#description{
+    font-weight: 200;
+    margin: 20px 0;
+    color: #D5D4D8;
+}
+
+#gen-password {
+    background-color: #10B981;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-shadow: 0 0 1px black;
+    margin: 30px 0px;
+}
+#gen-password:hover {
+    cursor: pointer;
+}
+
+.line{
+    width: 500px;
+    border: 1px solid #2F3E53;
+    margin: 15px 0px;
+}
+
+.show-password-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.show-password{
+    display: inline-block;
+    background-color: #273549;
+    border: none;
+    width: 200px;
+    padding: 10px ;
+    margin: 25px 0px;
+    border-radius: 5px;
+    font-size: 15px;
+    height: 40px;
+    color: #10B981;
+    text-align: center;
+}
+
+.copied{
+    width: 100px;
+    color: #CACACA;
+    margin: 0px auto;
+    border: 2px solid #8A8A8A;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    transition: 0.5s ease-in-out;
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible;
+}
