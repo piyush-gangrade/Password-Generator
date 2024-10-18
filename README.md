@@ -16,8 +16,8 @@ A random password generator website that creates a 16-character random password.
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/random-password-generator.git
-    cd random-password-generator
+    git clone https://github.com/piyush-gangrade/Password-Generator.git
+    cd Password-Generator
     ```
 
 2. Open `index.html` in your web browser.
